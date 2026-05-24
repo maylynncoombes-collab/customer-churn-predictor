@@ -33,9 +33,10 @@ def create_visuals():
     plt.savefig('data/churn_chart.png')
     print("✅ Chart saved to data/churn_chart.png")
     
-    # 6. Pop up the window to show you the result
-    print("🖼️  Opening chart preview window...")
+    # 6. Open chart preview
+    print("🖼️ Opening chart preview...")
     plt.show()
+
 
 if __name__ == "__main__":
     create_visuals()
